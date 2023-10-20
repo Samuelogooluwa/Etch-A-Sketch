@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    margin: 60px;
+    background-color: grey;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#container {
+    display: grid;
+    width: 1030px;
+    height: 1000px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px;
+    border: 1px solid black;
+    position: inherit;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+    transition: background-color 0.2s;
+}
+
+button {
+    position: sticky;
+    margin: 10px;
+    padding: 10px;
+}
